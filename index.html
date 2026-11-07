@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Kids Scratch 🎄</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HOME PAGE -->
+<div id="homePage">
+
+    <header>
+        <h1>🎄 Christmas Kids Scratch</h1>
+        <p>Create Christmas animations and coding games!</p>
+    </header>
+
+    <div class="home-buttons">
+        <button id="newProjectBtn">▶️ CREATE NEW PROJECT</button>
+        <button id="projectsBtn">📂 My Projects</button>
+        <button id="homeHelpBtn">❓ Help & Tutorials</button>
+        <button id="settingsBtn">⚙️ Settings</button>
+    </div>
+
+</div>
+
+<!-- EDITOR PAGE -->
+<div id="editorPage" hidden>
+
+    <header>
+        <button id="backHomeBtn">🏠 Home</button>
+        <h1>🎄 Christmas Scratch Editor</h1>
+        <button id="saveBtn">💾 Save</button>
+    </header>
+
+    <!-- TOOLBAR -->
+    <div class="toolbar">
+        <button id="addCharacterBtn">🎅 Add Character</button>
+        <button id="addBackgroundBtn">🌄 Add Background</button>
+        <button id="editorHelpBtn">❓ Help</button>
+    </div>
+
+    <!-- EDITOR -->
+    <div class="editor">
+
+        <!-- BLOCKS -->
+        <div class="blocks">
+
+            <h2>🧩 Coding Blocks</h2>
+
+            <h3>Motion</h3>
+            <button class="move">Move Right</button>
+            <button class="move">Move Left</button>
+            <button class="move">Move Up</button>
+            <button class="move">Move Down</button>
+
+            <h3>Looks</h3>
+            <button class="looks">💬 Say Hello</button>
+
+            <h3>Control</h3>
+            <button class="control">⏱️ Wait</button>
+
+            <h3>Sounds</h3>
+            <button class="sound">🔊 Play Sound</button>
+
+        </div>
+
+        <!-- STAGE -->
+        <div class="stage-area">
+
+            <div class="stage-toolbar">
+                <button id="addCharacterBtn">🎅 Add Character</button>
+                <button id="addBackgroundBtn">🌄 Background</button>
+            </div>
+
+            <div class="stage">
+                <div id="stageCharacter">🎅</div>
+            </div>
+
+            <div class="stage-controls">
+                <button id="greenFlag">🟢</button>
+                <button id="stopButton">🔴</button>
+            </div>
+
+        </div>
+
+        <!-- CODE -->
+        <div class="scripts">
+
+            <h2>📝 My Code</h2>
+
+            <div id="code">
+                Your coding blocks will appear here!
+            </div>
+
+            <button id="runBtn">▶️ Run</button>
+            <button id="stopBtn">⏹️ Stop</button>
+            <button id="resetBtn">🔄 Reset</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- JAVASCRIPT -->
+<script src="script.js"></script>
+
+</body>
+</html>
